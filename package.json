@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-stealthone",
+  "version": "1.0.0",
+  "description": "ESLint config for all stealthone/WB JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run -s lint --",
+    "lint": "eslint -c index.js ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
