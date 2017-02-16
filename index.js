@@ -16,6 +16,8 @@ module.exports = {
     ],
     rules: {
         indent: ['error', 4],
+        'comma-dangle': ['error', 'never'],
+        'no-underscore-dangle': 'allow',
         'padded-blocks': ['error', 'never'],
         'max-len': [0, 200],
         'react/jsx-indent': [2, 4],
