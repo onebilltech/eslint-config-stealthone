@@ -19,7 +19,7 @@ module.exports = {
         'comma-dangle': ['error', 'never'],
         'no-underscore-dangle': 0,
         'padded-blocks': ['error', 'never'],
-        'max-len': [0, 200],
+        'max-len': [0, 120],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         camelcase: [0, { properties: 'never' }]
