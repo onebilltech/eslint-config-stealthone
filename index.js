@@ -23,7 +23,8 @@ module.exports = {
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         camelcase: [0, { properties: 'never' }],
-        'default-case': ["error", { "commentPattern": "^no\sdefault[:\s]\s?.+/i" }]
+        quotes: ['error', 'single', { allowTemplateLiterals: true }],
+        'default-case': ['error', { commentPattern: '^no\sdefault[:\s]\s?.+/i' }] // eslint-disable-line no-useless-escape
     },
     env: {
         browser: true,
